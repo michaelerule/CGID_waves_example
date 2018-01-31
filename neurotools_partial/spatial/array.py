@@ -156,8 +156,9 @@ def array_phase_gradient(frame):
     '''
     if frame.dtype==np.complex64 or frame.dtype==np.complex128:
         frame=np.angle(frame)
-    dy = (frame[1:,:,...]-frame[:-1,:,...]+np.pi)%(2*np.pi)-np.pi
-    dx = (frame[:,1:,...]-frame[:,:-1,...]+np.pi)%(2*np.pi)-np.pi
+    # This computes the symmetric derivative kernel [0.5, 0, -0.5]
+    dy = (np.diff(frame,n=1,axis=0)+np.pi)%(2*np.pi)-np.pi
+    dx = (np.diff(frame,n=1,axis=1)+np.pi)%(2*np.pi)-np.pi
     dy = (dy[:,1:,...]+dy[:,:-1,...])*0.5
     dx = (dx[1:,:,...]+dx[:-1,:,...])*0.5
     return dx+1j*dy
