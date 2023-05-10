@@ -10,7 +10,7 @@ Previous studies on the origin and properties of spatial patterns in motor corte
 
 We show that a rich variety of transient β-local field potential (β-LFP) wave patterns emerge in motor cortex during preparatory steady states, despite stable neuronal firing rates. Furthermore, unlike optogenetically induced traveling waves, β-LFP waves showed no characteristic wavelength, presenting instead a range of scales with global phase synchrony as a limiting case. Overall, our statistical analyses suggest that transient phase reorganization in neural coupled oscillators, beyond purely excito-excitatory traveling waves, contribute significantly to the origin of motor cortex β-LFP wave patterns.
 
-# Repository Content
+### Repository Content
 
 This repository contains a notebook `20180116_example_analyses_release.ipynb` with example statistical analyses. It accompanies *Phase reorganization leads to transient β-LFP spatial wave patterns in motor cortex during steady-state movement preparation*, which analyzes phase waves in 
 β (15-25 Hz) local field potential oscillations in primate motor cortex.
