@@ -1,6 +1,6 @@
 # Phase reorganization leads to transient β-LFP spatial wave patterns in motor cortex during steady-state movement preparation
 
-Rule, M. E., Vargas-Irwin, C., Donoghue, J. P., & Truccolo, W. (2018). Phase reorganization leads to transient β-LFP spatial wave patterns in motor cortex during steady-state movement preparation. Journal of neurophysiology, 119(6), 2212-2228.
+Rule, M. E., Vargas-Irwin, C., Donoghue, J. P., & Truccolo, W. (2018). Phase reorganization leads to transient β-LFP spatial wave patterns in motor cortex during steady-state movement preparation. Journal of neurophysiology, 119(6), 2212-2228. [doi: https://doi.org/10.1152/jn.00525.2017.](https://doi.org/10.1152/jn.00525.2017)
 
 ### Abstract
 
